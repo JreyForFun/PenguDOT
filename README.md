@@ -127,12 +127,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - Instagram: [@InnovaREV](https://instagram.com/InnovaREV)
 - Twitter: [@InnovaREV](https://twitter.com/InnovaREV)
 
-## 🙏 Acknowledgments
-
-- Inspired by the [Lava Landing Page](https://templatemo.com/live/templatemo_540_lava_landing_page) template
-- Neo-Brutalist design principles
-- Built with ❤️ and 🐧
-
 ---
 
 **© 2025 PENGUIN ARTWORKS. Jrey - InnovaREV.**
