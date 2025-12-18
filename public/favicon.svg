@@ -1,0 +1,19 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Favicon - Simple Penguin Head -->
+  <!-- Body/Head -->
+  <circle cx="32" cy="32" r="28" fill="#000" stroke="#000" stroke-width="2"/>
+  <ellipse cx="32" cy="34" rx="18" ry="16" fill="#fff" stroke="#000" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <circle cx="26" cy="30" r="4" fill="#000"/>
+  <circle cx="38" cy="30" r="4" fill="#000"/>
+  <circle cx="25" cy="29" r="1.5" fill="#fff"/>
+  <circle cx="37" cy="29" r="1.5" fill="#fff"/>
+  
+  <!-- Beak -->
+  <polygon points="32,34 28,38 36,38" fill="#FFDE00" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Beret -->
+  <ellipse cx="32" cy="12" rx="20" ry="5" fill="#FF5E5E" stroke="#000" stroke-width="2"/>
+  <circle cx="35" cy="10" r="2.5" fill="#000"/>
+</svg>

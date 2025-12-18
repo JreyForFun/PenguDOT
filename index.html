@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐧</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PenguinDOT</title>
+    <!-- Google Fonts: Syne (Headings) and Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Syne:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="brutal-nav">
+        <div class="logo"><img src="/logo.svg" alt="Penguin Art Logo" class="logo-img"></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#masterpieces">Masterpieces</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact" class="btn-small">Stalk Me</a></li>
+        </ul>
+        <div class="mobile-toggle">☰</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">I MAKE ART.<br>YOU BUY ART.<br><span class="highlight">SIMPLE.</span></h1>
+            <p class="hero-desc">The world's first Neo-Brutalist Penguin Artist. No fluff. Just raw emotion and fish
+                themes.</p>
+            <a href="#masterpieces" class="btn-main">BUY MY STUFF</a>
+        </div>
+        <div class="hero-image-container">
+            <div class="blob-bg"></div>
+            <div class="hero-placeholder">
+                <img src="/penguin-artist.svg" alt="Penguin Artist" class="artist-image">
+                <div class="artist-badge">THE ARTIST</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Features Section -->
+    <section id="masterpieces" class="gallery-section">
+        <div class="section-badge">FOR SALE</div>
+        <h2 class="section-title">MY MASTERPIECES</h2>
+        <div class="gallery-grid">
+            <!-- Item 1 -->
+            <div class="card brutal-card item-1">
+                <div class="card-image">
+                    <img src="/art-1.svg" alt="Fish in Chaos" class="art-image">
+                </div>
+                <div class="card-content">
+                    <h3>"Fish in Chaos"</h3>
+                    <p>An exploration of the existential dread of a sardine.</p>
+                    <div class="price-row">
+                        <span class="price">$500</span>
+                        <button class="btn-card">MINE</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="card brutal-card item-2">
+                <div class="card-image">
+                    <img src="/art-2.svg" alt="The King Salmon" class="art-image">
+                </div>
+                <div class="card-content">
+                    <h3>"The King Salmon"</h3>
+                    <p>Royal heritage depicted in vibrant orange oil paints.</p>
+                    <div class="price-row">
+                        <span class="price">$1,200</span>
+                        <button class="btn-card">MINE</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="card brutal-card item-3">
+                <div class="card-image">
+                    <img src="/art-3.svg" alt="Cold Feet" class="art-image">
+                </div>
+                <div class="card-content">
+                    <h3>"Cold Feet"</h3>
+                    <p>A serene view of my backyard. Extremely cold.</p>
+                    <div class="price-row">
+                        <span class="price">$800</span>
+                        <button class="btn-card">MINE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="reviews" class="testimonials-section">
+        <h2 class="section-title text-right">HAPPY COLLECTORS</h2>
+        <div class="testimonials-carousel">
+            <div class="testimonial-card">
+                <div class="avatar"><img src="/avatar-bear.svg" alt="Polar Bear" class="avatar-img"></div>
+                <div class="review-text">
+                    <p>"I usually eat penguins, but this one has talent. The bold lines speak to my primal instincts."
+                    </p>
+                    <h4>— Polar Bear</h4>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="avatar"><img src="/avatar-seal.svg" alt="Seal" class="avatar-img"></div>
+                <div class="review-text">
+                    <p>"The neo-brutalist aesthetic really captures the harshness of the Antarctic shelf."</p>
+                    <h4>— Seal of Approval</h4>
+                    <div class="stars">★★★★☆</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h2>WANT A COMMISSION?</h2>
+                <p>I charge double for portraits of cats. I don't like cats.</p>
+                <ul class="social-links">
+                    <li><a href="#">INSTAGRAM @InnovaREV</a></li>
+                    <li><a href="#">TWITTER @InnovaREV</a></li>
+                </ul>
+            </div>
+            <form class="brutal-form" onsubmit="event.preventDefault(); alert('Message Sent! (Not really)');">
+                <div class="form-group">
+                    <label>WHO ARE YOU</label>
+                    <input type="text" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label>YOUR EMAIL</label>
+                    <input type="email" placeholder="email@example.com">
+                </div>
+                <div class="form-group">
+                    <label>WHAT DO YOU WANT</label>
+                    <textarea placeholder="Tell me specifically..."></textarea>
+                </div>
+                <button type="submit" class="btn-submit">SEND IT</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="brutal-footer">
+        <p>&copy; 2025 PENGUIN ARTWORKS. Jrey - InnovaREV.</p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>

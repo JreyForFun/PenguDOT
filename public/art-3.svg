@@ -1,0 +1,52 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- "Cold Feet" Landscape - 3D layered icebergs -->
+  <defs>
+    <filter id="shadow3">
+      <feDropShadow dx="5" dy="5" stdDeviation="0" flood-color="#000"/>
+    </filter>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C42;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFDE00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5E9BFF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iceGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E0F7FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5E9BFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky with sunset gradient -->
+  <rect width="400" height="400" fill="url(#skyGrad)"/>
+  
+  <!-- Sun -->
+  <circle cx="320" cy="80" r="40" fill="#FF5E5E" stroke="#000" stroke-width="4" filter="url(#shadow3)"/>
+  
+  <!-- Water -->
+  <rect y="280" width="400" height="120" fill="#5E9BFF" stroke="#000" stroke-width="4"/>
+  
+  <!-- Back iceberg (smaller, further) -->
+  <polygon points="280,280 320,200 360,280" fill="#B8E6F5" stroke="#000" stroke-width="3" filter="url(#shadow3)"/>
+  <polygon points="320,280 320,200 360,280" fill="#E0F7FF" stroke="#000" stroke-width="3"/>
+  
+  <!-- Middle iceberg -->
+  <polygon points="100,280 160,160 220,280" fill="#B8E6F5" stroke="#000" stroke-width="4" filter="url(#shadow3)"/>
+  <polygon points="160,280 160,160 220,280" fill="url(#iceGrad)" stroke="#000" stroke-width="4"/>
+  
+  <!-- Front iceberg (largest) -->
+  <polygon points="180,280 250,120 320,280" fill="#A0D8E8" stroke="#000" stroke-width="5" filter="url(#shadow3)"/>
+  <polygon points="250,280 250,120 320,280" fill="#E0F7FF" stroke="#000" stroke-width="5"/>
+  
+  <!-- Ice cracks detail -->
+  <line x1="250" y1="150" x2="260" y2="200" stroke="#000" stroke-width="2"/>
+  <line x1="250" y1="180" x2="240" y2="220" stroke="#000" stroke-width="2"/>
+  
+  <!-- Penguin silhouette (the artist) -->
+  <ellipse cx="50" cy="300" rx="15" ry="20" fill="#000" stroke="#000" stroke-width="2"/>
+  <circle cx="50" cy="290" r="10" fill="#fff" stroke="#000" stroke-width="2"/>
+  <circle cx="48" cy="288" r="2" fill="#000"/>
+  <polygon points="50,310 45,320 55,320" fill="#FFDE00" stroke="#000" stroke-width="2"/>
+  
+  <!-- Water ripples -->
+  <ellipse cx="200" cy="320" rx="60" ry="10" fill="none" stroke="#000" stroke-width="2" opacity="0.5"/>
+  <ellipse cx="200" cy="340" rx="80" ry="12" fill="none" stroke="#000" stroke-width="2" opacity="0.3"/>
+</svg>
